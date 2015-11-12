@@ -53,6 +53,7 @@ group :test do
   gem 'sqlite3', '1.3.5'
 end
 
-# group :production do
+group :production do
 #   gem 'sass-rails',   '3.2.5'
-# end
+gem 'rails_12factor'
+end
