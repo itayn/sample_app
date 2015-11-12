@@ -26,7 +26,7 @@ SampleApp::Application.configure do
   # Specifies the header that your server uses for sending files
   # config.action_dispatch.x_sendfile_header = "X-Sendfile" # for apache
   # config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect' # for nginx
-  config.action_dispatch.x_sendfile_header = nil # For Heroku
+  # config.action_dispatch.x_sendfile_header = nil # For Heroku
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
   # config.force_ssl = true
@@ -66,5 +66,5 @@ SampleApp::Application.configure do
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
 
-  config.assets.initialize_on_precompile = true
+  # config.assets.initialize_on_precompile = true
 end
